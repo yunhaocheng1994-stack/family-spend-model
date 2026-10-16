@@ -1,0 +1,1364 @@
+{
+ "generated": "2026-10-15 21:56",
+ "tz": "Asia/Shanghai",
+ "note": "由 build/refresh_macro.py 生成；所有数值均来自所列官方来源原文；未取得者 status=待补",
+ "series": {
+  "lpr": {
+   "label": "贷款市场报价利率 LPR",
+   "unit": "%",
+   "source": "中国人民银行（授权全国银行间同业拆借中心公布）",
+   "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/index.html",
+   "asof": "2026-09-20",
+   "latest": {
+    "lpr1y": 3.0,
+    "lpr5y": 3.5
+   },
+   "history": [
+    {
+     "date": "2025-03-20",
+     "lpr1y": 3.1,
+     "lpr5y": 3.6,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/5625437/index.html"
+    },
+    {
+     "date": "2025-04-21",
+     "lpr1y": 3.1,
+     "lpr5y": 3.6,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/5677604/index.html"
+    },
+    {
+     "date": "2025-05-20",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/5714282/index.html"
+    },
+    {
+     "date": "2025-06-20",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/5750950/index.html"
+    },
+    {
+     "date": "2025-07-21",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/5785724/index.html"
+    },
+    {
+     "date": "2025-08-20",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/5814699/index.html"
+    },
+    {
+     "date": "2025-09-22",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2025100917205310604/index.html"
+    },
+    {
+     "date": "2025-10-20",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2025111413260464433/index.html"
+    },
+    {
+     "date": "2025-11-20",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/5906687/index.html"
+    },
+    {
+     "date": "2025-12-22",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2025122208351884506/index.html"
+    },
+    {
+     "date": "2026-01-20",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2026012008464316247/index.html"
+    },
+    {
+     "date": "2026-02-24",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2026022408185939559/index.html"
+    },
+    {
+     "date": "2026-03-20",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2026032008304337760/index.html"
+    },
+    {
+     "date": "2026-04-20",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2026041714492978015/index.html"
+    },
+    {
+     "date": "2026-05-20",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2026052008080196671/index.html"
+    },
+    {
+     "date": "2026-06-22",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2026062208495122562/index.html"
+    },
+    {
+     "date": "2026-07-20",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2026072008093186869/index.html"
+    },
+    {
+     "date": "2026-08-20",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2026082008353223017/index.html"
+    },
+    {
+     "date": "2026-09-20",
+     "lpr1y": 3.0,
+     "lpr5y": 3.5,
+     "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2026092008384254324/index.html"
+    }
+   ],
+   "status": "ok"
+  },
+  "pboc_fin": {
+   "label": "金融统计（M2、社融存量）",
+   "unit": "%",
+   "source": "中国人民银行调查统计司",
+   "url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026101417073743604/index.html",
+   "asof": "2026年前三季度金融统计数据报告",
+   "latest": {
+    "title": "2026年前三季度金融统计数据报告",
+    "url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026101417073743604/index.html",
+    "m2_trn": 359.63,
+    "m2_yoy": 7.2,
+    "afre_trn": 468.17,
+    "afre_yoy": 7.1,
+    "deposit_yoy": 7.5,
+    "household_loans_text": null
+   },
+   "status": "ok"
+  },
+  "home_price_70": {
+   "label": "70个大中城市商品住宅销售价格指数（深圳、成都）",
+   "unit": "上年同月=100 / 上月=100",
+   "source": "国家统计局",
+   "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965304.html",
+   "asof": "2026-08",
+   "history": [
+    {
+     "month": "2025-09",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202510/t20251020_1961597.html",
+     "sz_new": {
+      "mom": 99.0,
+      "yoy": 98.2,
+      "ytd": 97.0
+     },
+     "sz_2nd": {
+      "mom": 99.0,
+      "yoy": 98.3,
+      "ytd": 96.5
+     },
+     "cd_new": {
+      "mom": 99.4,
+      "yoy": 101.3,
+      "ytd": 98.9
+     },
+     "cd_2nd": {
+      "mom": 99.4,
+      "yoy": 99.7,
+      "ytd": 98.1
+     }
+    },
+    {
+     "month": "2025-10",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202511/t20251114_1961850.html",
+     "sz_new": {
+      "mom": 99.3,
+      "yoy": 97.4,
+      "ytd": 97.0
+     },
+     "sz_2nd": {
+      "mom": 99.1,
+      "yoy": 96.7,
+      "ytd": 96.5
+     },
+     "cd_new": {
+      "mom": 99.0,
+      "yoy": 100.7,
+      "ytd": 99.1
+     },
+     "cd_2nd": {
+      "mom": 99.2,
+      "yoy": 98.5,
+      "ytd": 98.1
+     }
+    },
+    {
+     "month": "2025-11",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202512/t20251215_1962069.html",
+     "sz_new": {
+      "mom": 99.1,
+      "yoy": 96.3,
+      "ytd": 96.9
+     },
+     "sz_2nd": {
+      "mom": 99.0,
+      "yoy": 95.2,
+      "ytd": 96.4
+     },
+     "cd_new": {
+      "mom": 99.3,
+      "yoy": 99.5,
+      "ytd": 99.1
+     },
+     "cd_2nd": {
+      "mom": 99.1,
+      "yoy": 96.9,
+      "ytd": 98.0
+     }
+    },
+    {
+     "month": "2025-12",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202601/t20260119_1962319.html",
+     "sz_new": {
+      "mom": 99.5,
+      "yoy": 95.6,
+      "ytd": 96.8
+     },
+     "sz_2nd": {
+      "mom": 99.4,
+      "yoy": 94.6,
+      "ytd": 96.2
+     },
+     "cd_new": {
+      "mom": 99.3,
+      "yoy": 98.2,
+      "ytd": 99.1
+     },
+     "cd_2nd": {
+      "mom": 98.9,
+      "yoy": 95.5,
+      "ytd": 97.8
+     }
+    },
+    {
+     "month": "2026-01",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202602/t20260213_1962617.html",
+     "sz_new": null,
+     "sz_2nd": null,
+     "cd_new": null,
+     "cd_2nd": null
+    },
+    {
+     "month": "2026-02",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202603/t20260316_1962774.html",
+     "sz_new": {
+      "mom": 99.7,
+      "yoy": 94.5,
+      "ytd": 94.8
+     },
+     "sz_2nd": {
+      "mom": 99.6,
+      "yoy": 92.9,
+      "ytd": 93.2
+     },
+     "cd_new": {
+      "mom": 99.7,
+      "yoy": 96.2,
+      "ytd": 96.5
+     },
+     "cd_2nd": {
+      "mom": 99.8,
+      "yoy": 94.5,
+      "ytd": 94.8
+     }
+    },
+    {
+     "month": "2026-03",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963320.html",
+     "sz_new": {
+      "mom": 100.2,
+      "yoy": 94.5,
+      "ytd": 94.7
+     },
+     "sz_2nd": {
+      "mom": 100.4,
+      "yoy": 93.0,
+      "ytd": 93.1
+     },
+     "cd_new": {
+      "mom": 99.7,
+      "yoy": 95.5,
+      "ytd": 96.2
+     },
+     "cd_2nd": {
+      "mom": 99.7,
+      "yoy": 94.1,
+      "ytd": 94.5
+     }
+    },
+    {
+     "month": "2026-04",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202605/t20260518_1963715.html",
+     "sz_new": {
+      "mom": 100.1,
+      "yoy": 94.7,
+      "ytd": 94.7
+     },
+     "sz_2nd": {
+      "mom": 100.3,
+      "yoy": 93.5,
+      "ytd": 93.2
+     },
+     "cd_new": {
+      "mom": 99.8,
+      "yoy": 95.0,
+      "ytd": 95.9
+     },
+     "cd_2nd": {
+      "mom": 99.9,
+      "yoy": 93.9,
+      "ytd": 94.4
+     }
+    },
+    {
+     "month": "2026-05",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202606/t20260616_1963946.html",
+     "sz_new": {
+      "mom": 100.4,
+      "yoy": 95.5,
+      "ytd": 94.8
+     },
+     "sz_2nd": {
+      "mom": 100.6,
+      "yoy": 94.5,
+      "ytd": 93.5
+     },
+     "cd_new": {
+      "mom": 99.9,
+      "yoy": 94.8,
+      "ytd": 95.7
+     },
+     "cd_2nd": {
+      "mom": 99.6,
+      "yoy": 93.7,
+      "ytd": 94.3
+     }
+    },
+    {
+     "month": "2026-06",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964115.html",
+     "sz_new": {
+      "mom": 100.3,
+      "yoy": 96.4,
+      "ytd": 95.1
+     },
+     "sz_2nd": {
+      "mom": 100.3,
+      "yoy": 95.3,
+      "ytd": 93.8
+     },
+     "cd_new": {
+      "mom": 99.7,
+      "yoy": 94.9,
+      "ytd": 95.5
+     },
+     "cd_2nd": {
+      "mom": 99.6,
+      "yoy": 93.7,
+      "ytd": 94.2
+     }
+    },
+    {
+     "month": "2026-07",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965050.html",
+     "sz_new": {
+      "mom": 100.2,
+      "yoy": 97.1,
+      "ytd": 95.4
+     },
+     "sz_2nd": {
+      "mom": 100.2,
+      "yoy": 96.4,
+      "ytd": 94.1
+     },
+     "cd_new": {
+      "mom": 99.9,
+      "yoy": 94.9,
+      "ytd": 95.5
+     },
+     "cd_2nd": {
+      "mom": 99.7,
+      "yoy": 93.8,
+      "ytd": 94.1
+     }
+    },
+    {
+     "month": "2026-08",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965304.html",
+     "sz_new": {
+      "mom": 100.2,
+      "yoy": 97.7,
+      "ytd": 95.7
+     },
+     "sz_2nd": {
+      "mom": 100.1,
+      "yoy": 97.3,
+      "ytd": 94.5
+     },
+     "cd_new": {
+      "mom": 99.9,
+      "yoy": 95.0,
+      "ytd": 95.4
+     },
+     "cd_2nd": {
+      "mom": 99.6,
+      "yoy": 94.2,
+      "ytd": 94.1
+     }
+    }
+   ],
+   "chain": {
+    "sz_2nd": [
+     {
+      "month": "2025-09",
+      "chain": 99.0,
+      "yoy": 98.3,
+      "mom": 99.0
+     },
+     {
+      "month": "2025-10",
+      "chain": 98.109,
+      "yoy": 96.7,
+      "mom": 99.1
+     },
+     {
+      "month": "2025-11",
+      "chain": 97.128,
+      "yoy": 95.2,
+      "mom": 99.0
+     },
+     {
+      "month": "2025-12",
+      "chain": 96.545,
+      "yoy": 94.6,
+      "mom": 99.4
+     },
+     {
+      "month": "2026-02",
+      "chain": 96.159,
+      "yoy": 92.9,
+      "mom": 99.6
+     },
+     {
+      "month": "2026-03",
+      "chain": 96.544,
+      "yoy": 93.0,
+      "mom": 100.4
+     },
+     {
+      "month": "2026-04",
+      "chain": 96.833,
+      "yoy": 93.5,
+      "mom": 100.3
+     },
+     {
+      "month": "2026-05",
+      "chain": 97.414,
+      "yoy": 94.5,
+      "mom": 100.6
+     },
+     {
+      "month": "2026-06",
+      "chain": 97.706,
+      "yoy": 95.3,
+      "mom": 100.3
+     },
+     {
+      "month": "2026-07",
+      "chain": 97.902,
+      "yoy": 96.4,
+      "mom": 100.2
+     },
+     {
+      "month": "2026-08",
+      "chain": 98.0,
+      "yoy": 97.3,
+      "mom": 100.1
+     }
+    ],
+    "sz_new": [
+     {
+      "month": "2025-09",
+      "chain": 99.0,
+      "yoy": 98.2,
+      "mom": 99.0
+     },
+     {
+      "month": "2025-10",
+      "chain": 98.307,
+      "yoy": 97.4,
+      "mom": 99.3
+     },
+     {
+      "month": "2025-11",
+      "chain": 97.422,
+      "yoy": 96.3,
+      "mom": 99.1
+     },
+     {
+      "month": "2025-12",
+      "chain": 96.935,
+      "yoy": 95.6,
+      "mom": 99.5
+     },
+     {
+      "month": "2026-02",
+      "chain": 96.644,
+      "yoy": 94.5,
+      "mom": 99.7
+     },
+     {
+      "month": "2026-03",
+      "chain": 96.838,
+      "yoy": 94.5,
+      "mom": 100.2
+     },
+     {
+      "month": "2026-04",
+      "chain": 96.934,
+      "yoy": 94.7,
+      "mom": 100.1
+     },
+     {
+      "month": "2026-05",
+      "chain": 97.322,
+      "yoy": 95.5,
+      "mom": 100.4
+     },
+     {
+      "month": "2026-06",
+      "chain": 97.614,
+      "yoy": 96.4,
+      "mom": 100.3
+     },
+     {
+      "month": "2026-07",
+      "chain": 97.809,
+      "yoy": 97.1,
+      "mom": 100.2
+     },
+     {
+      "month": "2026-08",
+      "chain": 98.005,
+      "yoy": 97.7,
+      "mom": 100.2
+     }
+    ],
+    "cd_2nd": [
+     {
+      "month": "2025-09",
+      "chain": 99.4,
+      "yoy": 99.7,
+      "mom": 99.4
+     },
+     {
+      "month": "2025-10",
+      "chain": 98.605,
+      "yoy": 98.5,
+      "mom": 99.2
+     },
+     {
+      "month": "2025-11",
+      "chain": 97.717,
+      "yoy": 96.9,
+      "mom": 99.1
+     },
+     {
+      "month": "2025-12",
+      "chain": 96.642,
+      "yoy": 95.5,
+      "mom": 98.9
+     },
+     {
+      "month": "2026-02",
+      "chain": 96.449,
+      "yoy": 94.5,
+      "mom": 99.8
+     },
+     {
+      "month": "2026-03",
+      "chain": 96.16,
+      "yoy": 94.1,
+      "mom": 99.7
+     },
+     {
+      "month": "2026-04",
+      "chain": 96.064,
+      "yoy": 93.9,
+      "mom": 99.9
+     },
+     {
+      "month": "2026-05",
+      "chain": 95.679,
+      "yoy": 93.7,
+      "mom": 99.6
+     },
+     {
+      "month": "2026-06",
+      "chain": 95.297,
+      "yoy": 93.7,
+      "mom": 99.6
+     },
+     {
+      "month": "2026-07",
+      "chain": 95.011,
+      "yoy": 93.8,
+      "mom": 99.7
+     },
+     {
+      "month": "2026-08",
+      "chain": 94.631,
+      "yoy": 94.2,
+      "mom": 99.6
+     }
+    ],
+    "cd_new": [
+     {
+      "month": "2025-09",
+      "chain": 99.4,
+      "yoy": 101.3,
+      "mom": 99.4
+     },
+     {
+      "month": "2025-10",
+      "chain": 98.406,
+      "yoy": 100.7,
+      "mom": 99.0
+     },
+     {
+      "month": "2025-11",
+      "chain": 97.717,
+      "yoy": 99.5,
+      "mom": 99.3
+     },
+     {
+      "month": "2025-12",
+      "chain": 97.033,
+      "yoy": 98.2,
+      "mom": 99.3
+     },
+     {
+      "month": "2026-02",
+      "chain": 96.742,
+      "yoy": 96.2,
+      "mom": 99.7
+     },
+     {
+      "month": "2026-03",
+      "chain": 96.452,
+      "yoy": 95.5,
+      "mom": 99.7
+     },
+     {
+      "month": "2026-04",
+      "chain": 96.259,
+      "yoy": 95.0,
+      "mom": 99.8
+     },
+     {
+      "month": "2026-05",
+      "chain": 96.163,
+      "yoy": 94.8,
+      "mom": 99.9
+     },
+     {
+      "month": "2026-06",
+      "chain": 95.874,
+      "yoy": 94.9,
+      "mom": 99.7
+     },
+     {
+      "month": "2026-07",
+      "chain": 95.778,
+      "yoy": 94.9,
+      "mom": 99.9
+     },
+     {
+      "month": "2026-08",
+      "chain": 95.683,
+      "yoy": 95.0,
+      "mom": 99.9
+     }
+    ]
+   },
+   "status": "ok"
+  },
+  "cpi": {
+   "label": "居民消费价格指数 CPI（含分项：房租、交通工具用能源、水电燃料、小汽车）",
+   "unit": "%（同比/环比）",
+   "source": "国家统计局",
+   "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261014_1965477.html",
+   "asof": "2026-09",
+   "history": [
+    {
+     "month": "2025-09",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202510/t20251015_1961521.html",
+     "cpi": {
+      "mom": 0.1,
+      "yoy": -0.3,
+      "ytd": -0.1
+     },
+     "core": {
+      "mom": 0.0,
+      "yoy": 1.0,
+      "ytd": 0.6
+     },
+     "rent": {
+      "mom": 0.0,
+      "yoy": 0.0,
+      "ytd": -0.1
+     },
+     "energy_vehicle": null,
+     "utilities": {
+      "mom": 0.0,
+      "yoy": 0.4,
+      "ytd": 0.4
+     },
+     "car": null
+    },
+    {
+     "month": "2025-10",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202511/t20251109_1961826.html",
+     "cpi": {
+      "mom": 0.2,
+      "yoy": 0.2,
+      "ytd": -0.1
+     },
+     "core": {
+      "mom": 0.2,
+      "yoy": 1.2,
+      "ytd": 0.7
+     },
+     "rent": {
+      "mom": -0.1,
+      "yoy": -0.1,
+      "ytd": -0.1
+     },
+     "energy_vehicle": null,
+     "utilities": {
+      "mom": 0.0,
+      "yoy": 0.3,
+      "ytd": 0.4
+     },
+     "car": null
+    },
+    {
+     "month": "2025-11",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202512/t20251210_1962015.html",
+     "cpi": {
+      "mom": -0.1,
+      "yoy": 0.7,
+      "ytd": 0.0
+     },
+     "core": {
+      "mom": -0.1,
+      "yoy": 1.2,
+      "ytd": 0.7
+     },
+     "rent": {
+      "mom": -0.2,
+      "yoy": -0.2,
+      "ytd": -0.1
+     },
+     "energy_vehicle": null,
+     "utilities": {
+      "mom": 0.0,
+      "yoy": 0.3,
+      "ytd": 0.4
+     },
+     "car": null
+    },
+    {
+     "month": "2025-12",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202601/t20260109_1962273.html",
+     "cpi": {
+      "mom": 0.2,
+      "yoy": 0.8,
+      "ytd": 0.0
+     },
+     "core": {
+      "mom": 0.2,
+      "yoy": 1.2,
+      "ytd": 0.7
+     },
+     "rent": {
+      "mom": -0.1,
+      "yoy": -0.3,
+      "ytd": -0.1
+     },
+     "energy_vehicle": null,
+     "utilities": {
+      "mom": 0.0,
+      "yoy": 0.3,
+      "ytd": 0.4
+     },
+     "car": null
+    },
+    {
+     "month": "2026-01",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202602/t20260211_1962588.html",
+     "cpi": null,
+     "core": null,
+     "rent": null,
+     "energy_vehicle": null,
+     "utilities": null,
+     "car": null
+    },
+    {
+     "month": "2026-02",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202603/t20260309_1962732.html",
+     "cpi": {
+      "mom": 1.0,
+      "yoy": 1.3,
+      "ytd": 0.8
+     },
+     "core": {
+      "mom": 0.7,
+      "yoy": 1.8,
+      "ytd": 1.3
+     },
+     "rent": {
+      "mom": -0.1,
+      "yoy": -0.5,
+      "ytd": -0.4
+     },
+     "energy_vehicle": {
+      "mom": 2.8,
+      "yoy": -9.0,
+      "ytd": -9.7
+     },
+     "utilities": {
+      "mom": 0.0,
+      "yoy": 0.4,
+      "ytd": 0.4
+     },
+     "car": {
+      "mom": 0.1,
+      "yoy": -1.2,
+      "ytd": -1.3
+     }
+    },
+    {
+     "month": "2026-03",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260410_1963264.html",
+     "cpi": {
+      "mom": -0.7,
+      "yoy": 1.0,
+      "ytd": 0.9
+     },
+     "core": {
+      "mom": -0.7,
+      "yoy": 1.1,
+      "ytd": 1.2
+     },
+     "rent": {
+      "mom": 0.0,
+      "yoy": -0.5,
+      "ytd": -0.5
+     },
+     "energy_vehicle": {
+      "mom": 10.0,
+      "yoy": 3.4,
+      "ytd": -5.4
+     },
+     "utilities": {
+      "mom": 0.2,
+      "yoy": 0.6,
+      "ytd": 0.5
+     },
+     "car": {
+      "mom": -0.2,
+      "yoy": -1.1,
+      "ytd": -1.2
+     }
+    },
+    {
+     "month": "2026-04",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202605/t20260511_1963659.html",
+     "cpi": {
+      "mom": 0.3,
+      "yoy": 1.2,
+      "ytd": 0.9
+     },
+     "core": {
+      "mom": 0.2,
+      "yoy": 1.2,
+      "ytd": 1.2
+     },
+     "rent": {
+      "mom": -0.1,
+      "yoy": -0.6,
+      "ytd": -0.5
+     },
+     "energy_vehicle": {
+      "mom": 11.5,
+      "yoy": 17.4,
+      "ytd": 0.1
+     },
+     "utilities": {
+      "mom": 0.1,
+      "yoy": 0.6,
+      "ytd": 0.5
+     },
+     "car": {
+      "mom": -0.4,
+      "yoy": -1.2,
+      "ytd": -1.2
+     }
+    },
+    {
+     "month": "2026-05",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202606/t20260610_1963923.html",
+     "cpi": {
+      "mom": -0.1,
+      "yoy": 1.2,
+      "ytd": 1.0
+     },
+     "core": {
+      "mom": -0.1,
+      "yoy": 1.1,
+      "ytd": 1.2
+     },
+     "rent": {
+      "mom": -0.1,
+      "yoy": -0.6,
+      "ytd": -0.5
+     },
+     "energy_vehicle": {
+      "mom": -0.3,
+      "yoy": 21.1,
+      "ytd": 4.1
+     },
+     "utilities": {
+      "mom": 0.0,
+      "yoy": 0.6,
+      "ytd": 0.5
+     },
+     "car": {
+      "mom": -0.4,
+      "yoy": -1.1,
+      "ytd": -1.2
+     }
+    },
+    {
+     "month": "2026-06",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260709_1964084.html",
+     "cpi": {
+      "mom": -0.3,
+      "yoy": 1.0,
+      "ytd": 1.0
+     },
+     "core": {
+      "mom": -0.1,
+      "yoy": 1.0,
+      "ytd": 1.2
+     },
+     "rent": {
+      "mom": 0.1,
+      "yoy": -0.6,
+      "ytd": -0.5
+     },
+     "energy_vehicle": {
+      "mom": -4.5,
+      "yoy": 15.3,
+      "ytd": 5.9
+     },
+     "utilities": {
+      "mom": 0.0,
+      "yoy": 0.5,
+      "ytd": 0.5
+     },
+     "car": {
+      "mom": -0.4,
+      "yoy": -1.1,
+      "ytd": -1.2
+     }
+    },
+    {
+     "month": "2026-07",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260809_1965008.html",
+     "cpi": {
+      "mom": -0.1,
+      "yoy": 0.5,
+      "ytd": 0.9
+     },
+     "core": {
+      "mom": 0.3,
+      "yoy": 0.9,
+      "ytd": 1.1
+     },
+     "rent": {
+      "mom": 0.1,
+      "yoy": -0.6,
+      "ytd": -0.5
+     },
+     "energy_vehicle": {
+      "mom": -9.8,
+      "yoy": 0.8,
+      "ytd": 5.2
+     },
+     "utilities": {
+      "mom": 0.0,
+      "yoy": 0.5,
+      "ytd": 0.5
+     },
+     "car": {
+      "mom": -0.2,
+      "yoy": -1.3,
+      "ytd": -1.2
+     }
+    },
+    {
+     "month": "2026-08",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260909_1965263.html",
+     "cpi": {
+      "mom": 0.4,
+      "yoy": 0.8,
+      "ytd": 0.9
+     },
+     "core": {
+      "mom": 0.1,
+      "yoy": 1.0,
+      "ytd": 1.1
+     },
+     "rent": {
+      "mom": 0.0,
+      "yoy": -0.6,
+      "ytd": -0.5
+     },
+     "energy_vehicle": {
+      "mom": 6.6,
+      "yoy": 8.3,
+      "ytd": 5.6
+     },
+     "utilities": {
+      "mom": 0.0,
+      "yoy": 0.5,
+      "ytd": 0.5
+     },
+     "car": {
+      "mom": -0.2,
+      "yoy": -1.6,
+      "ytd": -1.2
+     }
+    },
+    {
+     "month": "2026-09",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261014_1965477.html",
+     "cpi": {
+      "mom": 0.2,
+      "yoy": 0.9,
+      "ytd": 0.9
+     },
+     "core": {
+      "mom": 0.0,
+      "yoy": 1.0,
+      "ytd": 1.1
+     },
+     "rent": {
+      "mom": -0.1,
+      "yoy": -0.6,
+      "ytd": -0.6
+     },
+     "energy_vehicle": {
+      "mom": 4.5,
+      "yoy": 14.9,
+      "ytd": 6.6
+     },
+     "utilities": {
+      "mom": 0.1,
+      "yoy": 0.6,
+      "ytd": 0.5
+     },
+     "car": {
+      "mom": -0.3,
+      "yoy": -1.7,
+      "ytd": -1.3
+     }
+    }
+   ],
+   "status": "ok"
+  },
+  "unemployment": {
+   "label": "城镇调查失业率",
+   "unit": "%",
+   "source": "国家统计局（国民经济运行情况）",
+   "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965307.html",
+   "asof": "8月份国民经济运行平稳、发展向新向优",
+   "latest": {
+    "title": "8月份国民经济运行平稳、发展向新向优",
+    "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965307.html",
+    "month": "8",
+    "national": 5.3,
+    "city31": 5.3
+   },
+   "status": "ok"
+  },
+  "income": {
+   "label": "居民人均可支配收入增速",
+   "unit": "%",
+   "source": "国家统计局",
+   "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964129.html",
+   "asof": "2026年上半年居民收入和消费支出情况",
+   "latest": {
+    "title": "2026年上半年居民收入和消费支出情况",
+    "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964129.html",
+    "all_yuan": 22981.0,
+    "all_nominal": 5.2,
+    "all_real": 4.2,
+    "urban_yuan": 30126.0,
+    "urban_nominal": 4.4,
+    "urban_real": 3.4
+   },
+   "status": "ok"
+  },
+  "cgb": {
+   "label": "中债国债收益率曲线（1年、10年）",
+   "unit": "%",
+   "source": "中央国债登记结算有限责任公司（中债）",
+   "url": "https://yield.chinabond.com.cn/cbweb-mn/yc/downYearBzqx?year=2026&wrjxCBFlag=0&zblx=txy&ycDefId=2c9081e50a2f9606010a3068cae70001&locale=zh_CN",
+   "asof": "2026-10-15",
+   "latest": {
+    "date": "2026-10-15",
+    "y1": 1.1803,
+    "y10": 1.6601
+   },
+   "history": [
+    {
+     "date": "2026-01-30",
+     "y1": 1.2999,
+     "y10": 1.8112
+    },
+    {
+     "date": "2026-02-28",
+     "y1": 1.3168,
+     "y10": 1.7753
+    },
+    {
+     "date": "2026-03-31",
+     "y1": 1.2212,
+     "y10": 1.8171
+    },
+    {
+     "date": "2026-04-30",
+     "y1": 1.162,
+     "y10": 1.7473
+    },
+    {
+     "date": "2026-05-29",
+     "y1": 1.1578,
+     "y10": 1.709
+    },
+    {
+     "date": "2026-06-30",
+     "y1": 1.1217,
+     "y10": 1.733
+    },
+    {
+     "date": "2026-07-31",
+     "y1": 1.146,
+     "y10": 1.7141
+    },
+    {
+     "date": "2026-08-31",
+     "y1": 1.2232,
+     "y10": 1.6883
+    },
+    {
+     "date": "2026-09-30",
+     "y1": 1.2197,
+     "y10": 1.6822
+    },
+    {
+     "date": "2026-10-15",
+     "y1": 1.1803,
+     "y10": 1.6601
+    }
+   ],
+   "status": "ok"
+  },
+  "us_rates": {
+   "label": "美国利率（FRED，经 us-dashboard 只读复用）",
+   "unit": "%",
+   "source": "FRED（St. Louis Fed）via /workspace/us-dashboard/data/t40.csv",
+   "url": "https://fred.stlouisfed.org/",
+   "asof": "2026-10-15 20:46",
+   "latest": {
+    "EFFR": {
+     "date": "2026-10-13",
+     "value": 3.88
+    },
+    "IORB": {
+     "date": "2026-10-14",
+     "value": 3.9
+    },
+    "SOFR": {
+     "date": "2026-10-14",
+     "value": 3.88
+    },
+    "DGS10": {
+     "date": "2026-10-13",
+     "value": 5.21
+    },
+    "DGS2": {
+     "date": "2026-10-13",
+     "value": 4.79
+    },
+    "T10YIE": {
+     "date": "2026-10-14",
+     "value": 2.35
+    }
+   },
+   "liquidity_weekly": {
+    "date": "2026-10-07",
+    "WALCL": "6747560.0",
+    "WSHOSHO": "6466820.0",
+    "WRESBAL": "3029659.0",
+    "WTREGEN": "880253.0",
+    "WLRRAL": "333739.0",
+    "rrp_billions_used": "2.338",
+    "rrp_date_used": "2026-10-07",
+    "net_liquidity": "5864969.0",
+    "WDTGAL": "885783.0",
+    "net_liquidity_wdtgal": "5859439.0",
+    "walcl_minus_tga": "5867307.0"
+   },
+   "status": "ok"
+  },
+  "cn_annual": {
+   "label": "中国年度序列（fiscal-dashboard 只读复用）",
+   "source": "/workspace/fiscal-dashboard/app/data/official/t33b,t32e,t33e.csv（原始来源：中债、国家统计局、人民银行）",
+   "url": "file:///workspace/fiscal-dashboard/app/data/official/",
+   "asof": "2025",
+   "cgb10y_avg": [
+    {
+     "year": 2020,
+     "v": 2.9441,
+     "url": "https://yield.chinabond.com.cn/cbweb-mn/yc/downYearBzqx?year=2020&wrjxCBFlag=0&zblx=txy&ycDefId=2c9081e50a2f9606010a3068cae70001&locale=zh_CN"
+    },
+    {
+     "year": 2021,
+     "v": 3.029,
+     "url": "https://yield.chinabond.com.cn/cbweb-mn/yc/downYearBzqx?year=2021&wrjxCBFlag=0&zblx=txy&ycDefId=2c9081e50a2f9606010a3068cae70001&locale=zh_CN"
+    },
+    {
+     "year": 2022,
+     "v": 2.7667,
+     "url": "https://yield.chinabond.com.cn/cbweb-mn/yc/downYearBzqx?year=2022&wrjxCBFlag=0&zblx=txy&ycDefId=2c9081e50a2f9606010a3068cae70001&locale=zh_CN"
+    },
+    {
+     "year": 2023,
+     "v": 2.7242,
+     "url": "https://yield.chinabond.com.cn/cbweb-mn/yc/downYearBzqx?year=2023&wrjxCBFlag=0&zblx=txy&ycDefId=2c9081e50a2f9606010a3068cae70001&locale=zh_CN"
+    },
+    {
+     "year": 2024,
+     "v": 2.216,
+     "url": "https://yield.chinabond.com.cn/cbweb-mn/yc/downYearBzqx?year=2024&wrjxCBFlag=0&zblx=txy&ycDefId=2c9081e50a2f9606010a3068cae70001&locale=zh_CN"
+    },
+    {
+     "year": 2025,
+     "v": 1.7437,
+     "url": "https://yield.chinabond.com.cn/cbweb-mn/yc/downYearBzqx?year=2025&wrjxCBFlag=0&zblx=txy&ycDefId=2c9081e50a2f9606010a3068cae70001&locale=zh_CN"
+    }
+   ],
+   "wage_nonprivate": [
+    {
+     "year": 2020,
+     "v": 97379.0,
+     "url": "https://www.stats.gov.cn/sj/ndsj/2023/html/C04-09.jpg ; https://www.stats.gov.cn/sj/ndsj/2025/html/C04-09.jpg ; https://www.stats.gov.cn/sj/ndsj/2025/html/C04-13.jpg"
+    },
+    {
+     "year": 2021,
+     "v": 106837.0,
+     "url": "https://www.stats.gov.cn/sj/ndsj/2023/html/C04-09.jpg ; https://www.stats.gov.cn/sj/ndsj/2025/html/C04-09.jpg ; https://www.stats.gov.cn/sj/ndsj/2025/html/C04-13.jpg"
+    },
+    {
+     "year": 2022,
+     "v": 114029.0,
+     "url": "https://www.stats.gov.cn/sj/ndsj/2023/html/C04-09.jpg ; https://www.stats.gov.cn/sj/ndsj/2025/html/C04-09.jpg ; https://www.stats.gov.cn/sj/ndsj/2025/html/C04-13.jpg"
+    },
+    {
+     "year": 2023,
+     "v": 120698.0,
+     "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C04-09.jpg ; https://www.stats.gov.cn/sj/ndsj/2025/html/C04-13.jpg"
+    },
+    {
+     "year": 2024,
+     "v": 124110.0,
+     "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C04-09.jpg ; https://www.stats.gov.cn/sj/ndsj/2025/html/C04-13.jpg ; https://www.stats.gov.cn/sj/zxfb/202505/t20250516_1959826.html"
+    },
+    {
+     "year": 2025,
+     "v": 129441.0,
+     "url": "https://www.stats.gov.cn/sj/zxfbhjd/202605/t20260515_1963706.html"
+    }
+   ],
+   "afre_stock": [
+    {
+     "year": 2021,
+     "v": 314.12,
+     "url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510030348458.xls"
+    },
+    {
+     "year": 2022,
+     "v": 344.22,
+     "url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110417010166853.xlsx"
+    },
+    {
+     "year": 2023,
+     "v": 378.08,
+     "url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416000632854.xlsx"
+    },
+    {
+     "year": 2024,
+     "v": 408.34,
+     "url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416273097092.xlsx"
+    },
+    {
+     "year": 2025,
+     "v": 442.12,
+     "url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021616264071771.xlsx"
+    }
+   ],
+   "status": "ok"
+  },
+  "deposit_rate": {
+   "status": "待补",
+   "label": "存款挂牌利率（国有大行）",
+   "source": "各行官网挂牌利率表 / 人民银行",
+   "url": "https://www.icbc.com.cn/column/1438058341489590354.html",
+   "note": "未抓取；住房模型「数据来源」页引用 3年大额存单约1.55%（新闻转述，非官方表）"
+  },
+  "rent_index_sz": {
+   "status": "待补",
+   "label": "深圳住房租金指数",
+   "source": "深圳市住房和建设局 / 国家统计局CPI房租分项（全国）",
+   "url": "https://zjj.sz.gov.cn/",
+   "note": "官方城市级租金指数未找到可抓取来源；用全国CPI「租赁房房租」分项代替（见 cpi）"
+  }
+ },
+ "log": []
+}

@@ -1,0 +1,89 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<link rel="icon" href="data:,">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>家庭支出决策模型（实验版）</title>
+<link rel="stylesheet" href="lx.css">
+<link rel="stylesheet" href="extra.css">
+<link rel="stylesheet" href="v3.css">
+<style>
+  body{background:var(--color-bg);color:var(--color-fg);margin:0}
+  .lx{max-width:1440px;margin:0 auto;padding:16px 20px 60px;box-sizing:border-box}
+  .layout{display:block}
+  @media(min-width:1200px){
+    .layout{display:grid;grid-template-columns:300px minmax(0,1fr);gap:20px;align-items:start}
+    #side{position:sticky;top:12px;max-height:calc(100vh - 24px);overflow-y:auto}
+  }
+  #side{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:12px;box-sizing:border-box;margin-bottom:16px}
+  #side h3{margin:0 0 8px}
+  .fld{display:grid;grid-template-columns:1fr 110px;gap:6px;align-items:center;margin:4px 0;font-size:13px}
+  .fld label{color:var(--color-fg-muted);line-height:1.2}
+  .fld input,.fld select{width:100%;box-sizing:border-box;background:var(--color-bg);color:var(--color-fg);border:1px solid var(--color-border-line);border-radius:4px;padding:3px 5px;font-size:13px}
+  .fld input.chg{border-color:var(--color-warn)}
+  .badge{display:inline-block;font-size:10px;padding:0 4px;border-radius:3px;margin-left:4px;vertical-align:middle;white-space:nowrap}
+  .b-warn{background:var(--color-warn);color:#111}
+  .b-ok{background:var(--color-ok);color:#111}
+  .b-bad{background:var(--color-bad);color:#fff}
+  .b-mut{border:1px solid var(--color-border-line);color:var(--color-fg-muted)}
+  .grp{margin:8px 0 2px;font-size:12px;font-weight:600;color:var(--color-fg-muted)}
+  button.btn{background:var(--color-bg);color:var(--color-fg);border:1px solid var(--color-border-line);border-radius:4px;padding:4px 10px;cursor:pointer;margin:8px 0}
+  main{min-width:0}
+  .dec3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:14px 0}
+  .lx-card{min-width:0;overflow:hidden;box-sizing:border-box}
+  .bigt{font-size:22px;font-weight:700;margin:6px 0 8px}
+  .lx-card ul{margin:4px 0;padding-left:18px;font-size:13px;line-height:1.5}
+  .pill{display:inline-block;padding:2px 10px;border-radius:12px;font-size:12px;font-weight:600;color:#111}
+  .p-green{background:var(--color-ok)}.p-yellow{background:var(--color-warn)}.p-red{background:var(--color-bad);color:#fff}
+  .ok{color:var(--color-ok)}.bad{color:var(--color-bad)}.warn{color:var(--color-warn)}.mut{color:var(--color-fg-muted)}
+  section{margin:22px 0}
+  .tblwrap{overflow-x:auto;max-width:100%}
+  .tblwrap table{border-collapse:collapse;font-size:12.5px;width:100%}
+  .tblwrap th,.tblwrap td{padding:4px 7px;border-bottom:1px solid var(--color-border-line);text-align:right;white-space:nowrap}
+  .tblwrap th:first-child,.tblwrap td:first-child{text-align:left}
+  tr.hl td{background:rgba(120,180,255,.12);font-weight:600}
+  tr.muted td{opacity:.5}
+  .hm td{text-align:center}
+  .hm td.cell{min-width:74px}
+  .hm .l2{font-size:10.5px;opacity:.85}
+  .hm td.unacc{outline:2px solid var(--color-bad);outline-offset:-2px}
+  .cols3{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+  .lx-chart{width:100%;min-height:200px;position:relative}
+  #overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;align-items:center;justify-content:center;z-index:50;font-size:20px;color:#fff}
+  #overlay.on{display:flex}
+  #tip{position:fixed;pointer-events:none;display:none;z-index:60;max-width:320px}
+  details>summary{cursor:pointer;font-weight:600;margin:8px 0}
+  pre{white-space:pre-wrap;word-break:break-all;font-size:11.5px;max-height:300px;overflow:auto;background:var(--color-bg);padding:8px;border:1px solid var(--color-border-line)}
+  #err{color:var(--color-bad)}
+  .lx-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}
+  .tabpane{display:none;margin-top:10px}.tabpane.on{display:block}
+  .amber{background:rgba(255,190,60,.15);border-left:3px solid var(--color-warn);padding:2px 6px}
+  a{color:#7ab8ff}
+.lx table.hm{font-size:11px}
+.lx table.hm td,.lx table.hm th{padding:3px 4px;min-width:0}
+</style>
+</head>
+<body>
+<div class="lx">
+  <h1>家庭支出决策模型（实验版）</h1><div style="font-size:14px;opacity:.7;margin-top:4px">买房还是租房 · 买什么车</div>
+  <p class="lx-take" id="lead">加载中…</p>
+  <div class="layout">
+    <aside id="side"></aside>
+    <main id="main"></main>
+  </div>
+  <pre id="err" style="display:none"></pre>
+</div>
+<div id="overlay">计算中…</div>
+<div id="tip" class="lx-tip"></div>
+<script src="vendor/d3.min.js"></script>
+<script src="modelA.js"></script>
+<script src="modelB.js"></script>
+<script src="household.js"></script>
+<script src="intake.js"></script>
+<script src="judge.js"></script>
+<script src="v3.js"></script>
+<script src="ui.js"></script>
+</body>
+</html>
